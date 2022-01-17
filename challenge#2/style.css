@@ -1,0 +1,20 @@
+body {
+  background-color: green;
+}
+h2 {
+  color: white;
+}
+
+.default {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.small {
+  background-color: skyblue;
+}
+.middle {
+  background-color: purple;
+}
+.big {
+  background-color: yellow;
+}
