@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>challenge3</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="guess-num">
+      <label for="maximum"
+        >Generate a number between 0 and
+        <input
+          type="text"
+          id="maximum"
+          required
+          placeholder="Set maximum number"
+      /></label>
+      <br />
+      <label for="usernum"
+        >Guess the number:
+        <input type="text" required id="usernum" />
+      </label>
+      <input type="submit" id="playBtn" value="Play!" />
+    </form>
+    <div>
+      <span id="show"></span>
+      <br />
+      <span id="result"></span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
