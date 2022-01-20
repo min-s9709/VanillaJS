@@ -4,9 +4,8 @@ const perMinMs = 1000*60;
 const perHourMs = perMinMs*60;
 const perDayMs = perHourMs*24;
 
-
 function getClock(){
-    const futureDate = new Date('2022-12-25T00:00:00');
+    const futureDate = new Date(`${new Date().getFullYear()}-12-25:00:00:00+0900`);
     const nowDate = new Date();
 
     const diff = futureDate.getTime()- nowDate.getTime();
