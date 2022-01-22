@@ -4,5 +4,6 @@ const chosenImage =arrayImages[Math.floor(Math.random() * arrayImages.length)];
 
 const bgImages = document.createElement("img");
 bgImages.src = `img/${chosenImage}`;
+bgImages.classList.add("bgImage");
 
 document.body.appendChild(bgImages);
