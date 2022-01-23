@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans&display=swap");
 body {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
@@ -79,6 +79,8 @@ input[type="submit"] {
   color: rgb(51, 50, 50);
   margin-top: 7px;
   padding-bottom: 10px;
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 600;
 }
 li {
   border-bottom: 3px solid white;
