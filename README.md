@@ -1,6 +1,6 @@
 # Vanilla JS
 
-## Make My To Do App
+## Study JS & Make My To Do App
 
 #### Dependency
 
